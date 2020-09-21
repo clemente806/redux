@@ -1,0 +1,30 @@
+1)Spostarsi dal terminal nella cartella del progetto
+2)git -- version per verificare se è installato git
+3)git config -- local user.name/email ''
+4)git status(ci fa vedere quali file saranno caricati)
+5)git add nome_file per selezionarlo opp. git add . per selezionare tutti
+6)git rm--cached nome_file per rimuovere la selezione
+7)git commit -m 'commento' per memorizzare
+8)DOPO git status premendo il comando git checkout -- nome_file si andrano a rimuovere tutti i cambiamenti apportati
+//al file portandoci all'ultimo commit
+9)git branch mostra tutti i branch e dove siamo
+10)git branch nome_branch si crea un nuovo branch
+11)git checkout nome_branck per cambiare branch
+//Quando si è nel nuovo branch tutte le cartelle e modifiche
+varie rimarranno la, ritornando al branch master non saranno 
+più utilizzabili, poi con commit si possono salvare come prima
+12)git merge nome_branch da unire al master, per aggiungere i dati al master
+13)git log fa vedere la storia di tutti i commit
+14)git reset nome_commit(è un coidce) per vedere le differenze tra il codice corrente ed il codice di quella versione
+// a questo punto con git checkout nome_file da cambiare rinuove tutti i cambiamenti che si sono
+			GITHUB
+1)Creare nuova repository
+2)copiare l'HTTPS
+3)git remote add origin HTTPS
+4)git remote -v, per vedere se si è collegato
+5)git push -u origin master per fare il push
+6)git pull serve per prendere i file dalla remote repository, (serve per il lavoro il team il quanto un collega con ilpush carica i nnuovi dati, l'atro con il pull li scarica
+7)git clone HTTPS per copiare un intero progetto da github
+
+
+
